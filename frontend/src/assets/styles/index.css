@@ -8,7 +8,24 @@
   background-color: #34495E;
   color: #333; /* Color de texto en contraste */
 }
+.navbar {
+  background-color: #BDC3C7; /* Color de fondo de la navbar, ajusta si es necesario */
+  color: #BDC3C7; /* Color del texto */
+}
 
+.navbar a {
+  color: #BDC3C7; /* Color del texto de los enlaces dentro de la navbar */
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  color: #AAB7B8 ; /* Color del texto al pasar el ratón sobre los enlaces */
+}
+
+/* Si usas otras etiquetas dentro de la navbar, asegúrate de aplicar el color */
+.navbar h1, .navbar h2, .navbar h3, .navbar p {
+  color: #BDC3C7; /* Color del texto en encabezados y párrafos */
+}
 .carousel-item-content {
   display: flex;
   align-items: center;
