@@ -1,0 +1,60 @@
+/* Estilos CSS actualizados para el carousel */
+/* Estilo para color crema */
+.beige {
+  background-color: #bdddfa;
+  color: #333; /* Color de texto en contraste */
+}
+.beige2 {
+  background-color: #fff5ce;
+  color: #333; /* Color de texto en contraste */
+}
+
+.carousel-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ajustar la altura del contenido del carousel */
+}
+
+.carousel-image {
+  width: 100%; /* Ancho 100% para la imagen, se ajustará automáticamente */
+  max-height: 400px; /* Altura máxima para la imagen */
+  padding: 0 120px; /* Padding alrededor de la imagen en pantallas más grandes */
+
+  /* Evitar que el padding afecte negativamente en pantallas más pequeñas */
+  box-sizing: border-box; /* Incluir padding en el tamaño total del elemento */
+
+  /* Media query para ajustar el padding en pantallas más pequeñas */
+  @media (max-width: 768px) {
+    padding: 0; /* Eliminar el padding en pantallas más pequeñas */
+  }
+}
+
+.carousel-description {
+  width: 100%; /* Ancho 100% para la descripción */
+  padding: 40px; /* Padding general para la descripción */
+  text-align: center; /* Alinear el texto al centro */
+}
+
+.carousel-description h2 {
+  font-size: 1.5rem; /* Tamaño de fuente para el título */
+  margin-bottom: 0.5rem; /* Espacio inferior para el título */
+}
+
+.carousel-description p {
+  font-size: 1rem; /* Tamaño de fuente para el texto de descripción */
+  line-height: 1.5; /* Espaciado de línea */
+}
+
+/* Estilo para ajustar la altura de las imágenes */
+.book-image {
+  height: 400px; /* Altura deseada para las imágenes */
+  object-fit: cover; /* Para cubrir el contenedor manteniendo la proporción */
+}
+
+/* Media query para ajustar el padding en pantallas más pequeñas */
+@media (max-width: 768px) {
+  .carousel-description {
+    padding: 10px; /* Reducir el padding en pantallas más pequeñas */
+  }
+}
